@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{ 
+    --cor-borda:#72828C;
+    --cor-fundo:#CEE4F2;
+    --cor-letras:#000000;
+}
+body{
+    background-image: url('download.jfif');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 20px;
+}
+.header__title,
+.header__subtitle{
+    color:var(--cor-letras);
+}
+.contact-form__input-name,
+.contact-form__input-email{
+    color: var(--cor-letras);
+    background-color: var(--cor-fundo);
+    display:block;
+    padding-left: 10px;
+    margin:10px auto;
+    font-size:16px;
+    max-width: 500px;
+    width:100%;
+    height: 35px;
+    border:3px solid var(--cor-borda);
+    border-radius: 20px;
+}
+.contact-form__input-name:focus,
+.contact-form__input-email:focus{
+    color:var(--cor-letras);
+    background-color: #9cc3da;
+    display:block;
+    padding-left: 10px;
+    margin:10px auto;
+    font-size:18px;
+    max-width: 525px;
+    width:100%;
+    height: 35px;
+    border:2,5px solid var(--cor-borda);
+    border-radius: 20px;
+}
+.github-link{
+    text-decoration: none;
+    color: var(--cor-letras);
+}
+.contact-form__textarea{
+    color: var(--cor-letras);
+    background-color: var(--cor-fundo);
+    resize:vertical;
+    padding:10px;
+    margin: 10px auto;
+    display:block;
+    font-size:16px;
+    max-width: 500px;
+    width:100%;
+    height: 120px;
+    border-radius: 20px;
+    border:2,5px solid var(--cor-borda);
+}
+.contact-form__textarea:focus{
+    color: var(--cor-letras);
+    background-color: #9cc3da;
+    resize:vertical;
+    padding:10px;
+    margin: 10px auto;
+    display:block;
+    font-size:20px;
+    max-width: 500px;
+    width:100%;
+    height: 130px;
+    border-radius: 20px;
+    border:2,5px solid var(--cor-borda);
+}
+.terms__span{
+    color: #4C5059;
+    font-weight:700;
+}
+.contact-form__input-submit{
+    display:block;
+    padding-left: 10px;
+    margin:10px auto;
+    font-size:16px;
+    max-width: 500px;
+    width:100%;
+    cursor:pointer;
+    color: var(--cor-letras);
+    background-color: var(--cor-fundo);
+    height: 35px;
+    border-radius: 20px;
+    border:2,5px solid var(--cor-borda);
+}
+.contact-form__input-submit:hover{
+    display:block;
+    padding-left: 10px;
+    margin:10px auto;
+    font-size:16px;
+    max-width: 500px;
+    width:100%;
+    cursor:pointer;
+    color: var(--cor-letras);
+    background-color: #9cc3da;
+    height: 35px;
+    border-radius: 20px;
+    border:2,5px solid var(--cor-borda);
+}
